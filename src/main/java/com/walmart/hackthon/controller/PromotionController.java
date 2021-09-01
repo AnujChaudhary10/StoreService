@@ -26,8 +26,8 @@ public class PromotionController {
 	PromotionManager promotionManager;
 
 	@GetMapping(value = "/{promotionId}")
-	public Object getPromotion(@PathVariable String promotionId) {
-		return matcherImpl.getStoreForPromotionId(promotionId);
+	public PromotionDetail getPromotion(@PathVariable String promotionId) {
+		return promotionManager.getPromotion(promotionId);
 	}
 
 	@GetMapping(value = "/allPromotions/{id}")
