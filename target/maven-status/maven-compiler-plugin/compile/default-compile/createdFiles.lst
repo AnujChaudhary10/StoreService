@@ -5,6 +5,7 @@ com/walmart/hackthon/service/StorePromotionMatcherServiceImpl.class
 com/walmart/hackthon/service/StoreManager.class
 com/walmart/hackthon/dao/StorePromotionDaoImpl.class
 com/walmart/hackthon/dao/StoreDaoImpl.class
+com/walmart/hackthon/dbconfig/HsqlDataSource.class
 com/walmart/hackthon/controller/MappingController.class
 com/walmart/hackthon/service/PromotionManager.class
 com/walmart/hackthon/store/pojo/StoreDetail.class

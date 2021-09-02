@@ -33,8 +33,11 @@
 		</dependency>
 
 		<!-- Spring JDBC -->
-		<!-- <dependency> <groupId>org.springframework</groupId> <artifactId>spring-jdbc</artifactId> 
-			<version>4.1.4.RELEASE</version> </dependency> -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
 		<!-- HyperSQL DB -->
 		<dependency>
 			<groupId>org.hsqldb</groupId>
